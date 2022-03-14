@@ -16,6 +16,7 @@
         font: normal 25pt italic;
         color: rgb(0, 0, 0);
         text-align: center;
+        margin-bottom: 20pt;
         
         }
     </style>
@@ -32,32 +33,35 @@
              var res = document.querySelector("div#res")
         if(nome == "Andre"){
             res.innerHTML = `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
-
+            res.innerHTML += "Veja o video"
         }
         else if(nome == "andre"){
-            res.innerHTML = `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+            res.innerHTML += `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+            res.innerHTML += "Veja o video"
         }
         else if(nome == "andré"){
-            res.innerHTML = `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+            res.innerHTML += `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+            res.innerHTML += "Veja o video"
         }
         else if(nome == "André"){
-            res.innerHTML = `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+            res.innerHTML += `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+            res.innerHTML += "Veja o video"
         }
         else if(nome == "enrico"){
-            res.innerHTML = `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+            res.innerHTML += `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+            res.innerHTML += "Veja o video"
         }
-        else if(nome == "Enrico"){
-            res.innerHTML = `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+
+         else if(nome == "Enrico"){
+            res.innerHTML += `<p>Seu nome é ${nome} e você é <strong>GAY</strong></p>`
+            res.innerHTML += "Veja o video"
         }
         else{
             res.innerHTML += "<p>Continua sendo <strong>GAY</strong></p>"
-        }
-
-             
-         
-         
-         }
+            res.innerHTML += "Veja o video"
+        }}
 
      </script>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/hFjD6PPlnxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
